@@ -62,13 +62,13 @@ Caregiver Notification
 ### Door Sensor Assisted Verification
 ```
 ESP32 Door Sensor
-↓
+        ↓
 HTTP Communication
-↓
+        ↓
 Raspberry Pi 5
-↓
+        ↓
 Door Event Verification
-↓
+        ↓
 Exit Detection Logic
 ```
 The camera system continuously performs person detection and tracking.
@@ -94,7 +94,6 @@ Limitations:
 
 * Limited nighttime monitoring capability
 * Exit detection relied solely on computer vision
-
 ### Version 2 – Raspberry Pi Camera Module 3 NoIR
 
 Hardware:
@@ -111,8 +110,6 @@ Improvements:
 Limitations:
 
 * Exit-event verification still relied primarily on image analysis
-
-
 ### Version 3 – ESP32 Door Sensor Integration
 
 Additional Hardware:
