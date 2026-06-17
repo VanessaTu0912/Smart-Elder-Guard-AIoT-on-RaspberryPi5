@@ -35,7 +35,7 @@ This project aims to provide a low-cost AIoT solution capable of:
 
 The camera is continuously active and serves as the main sensing source of the system.
 
-```text
+```
 Logitech Brio 500 / Raspberry Pi Camera Module 3 NoIR
         ↓
 Raspberry Pi 5
@@ -57,6 +57,7 @@ AWS Lambda
 LINE Messaging API
         ↓
 Caregiver Notification
+'''
 
 ### Door Sensor Assisted Verification
 
