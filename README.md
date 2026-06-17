@@ -149,6 +149,17 @@ Benefits:
 * LINE Messaging API
 
 ## Hardware Components
+## Hardware Components
+
+| Component | Description |
+|------------|------------|
+| Raspberry Pi 5 | Edge computing platform responsible for running YOLOv8, ByteTrack, MobileNetV3, Flask server, and AWS IoT communication. |
+| Logitech Brio 500 USB Webcam | Used in the first development stage for real-time video acquisition and person detection. |
+| Raspberry Pi Camera Module 3 NoIR | Used in the final version to provide improved low-light and nighttime monitoring capability. |
+| ESP32 DevKit V1 | Collects door sensor signals and transmits door events to Raspberry Pi through Wi-Fi. |
+| Magnetic Door Sensor | Detects whether the entrance door is opened or closed. |
+| Wi-Fi Router | Provides network connectivity between ESP32, Raspberry Pi, AWS IoT Core, and external services. |
+| Power Supply | Supplies stable power to Raspberry Pi 5 and peripheral devices. |
 
 ## Software Requirements
 * Python 3.13
