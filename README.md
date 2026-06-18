@@ -149,7 +149,6 @@ Benefits:
 * LINE Messaging API
 
 ## Hardware Components
-## Hardware Components
 
 | Component | Description |
 |------------|------------|
